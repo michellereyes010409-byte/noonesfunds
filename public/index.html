@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>NoOnes Agency Withdrawal</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #0b0f1a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: #fff;
+    }
+
+    .card {
+        width: 360px;
+        background: #111827;
+        border-radius: 15px;
+        padding: 25px;
+        box-shadow: 0 0 25px rgba(0,0,0,0.6);
+    }
+
+    .logo {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+
+    .status {
+        background: #1f2937;
+        padding: 12px;
+        border-radius: 10px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #facc15;
+        font-weight: bold;
+    }
+
+    .amount {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .amount h1 {
+        margin: 0;
+        font-size: 30px;
+        color: #22c55e;
+    }
+
+    .amount span {
+        font-size: 14px;
+        color: #9ca3af;
+    }
+
+    .details {
+        background: #020617;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+
+    .details div {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .details div:last-child {
+        margin-bottom: 0;
+    }
+
+    .label {
+        color: #9ca3af;
+    }
+
+    .value {
+        font-weight: bold;
+    }
+
+    .btn {
+        width: 100%;
+        padding: 15px;
+        border: none;
+        border-radius: 10px;
+        background: #16a34a;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .btn:hover {
+        background: #15803d;
+    }
+
+    .note {
+        margin-top: 15px;
+        font-size: 12px;
+        color: #9ca3af;
+        text-align: center;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+    <div class="logo">
+        <!-- NoOnes logo -->
+        <img src="https://noones.com/favicon.ico" alt="NoOnes">
+    </div>
+
+    <div class="status">
+        Withdrawal Pending
+    </div>
+
+    <div class="amount">
+        <h1>KES 10,000</h1>
+        <span>Pending Amount</span>
+    </div>
+
+    <div class="details">
+        <div>
+            <span class="label">Payment Method</span>
+            <span class="value">M-Pesa</span>
+        </div>
+
+        <div>
+            <span class="label">Mpesa Number</span>
+            <span class="value">0716095710</span>
+        </div>
+
+        <div>
+            <span class="label">Recipient Name</span>
+            <span class="value">JOHN CHOMBIR</span>
+        </div>
+
+        <div>
+            <span class="label">Status</span>
+            <span class="value" style="color:#facc15;">Pending</span>
+        </div>
+    </div>
+
+    <button class="btn" onclick="window.location.href='noones.html'">
+        Withdraw Now
+    </button>
+
+    <div class="note">
+        Processing may take a few minutes depending on network availability.
+    </div>
+
+</div>
+
+</body>
+</html>
